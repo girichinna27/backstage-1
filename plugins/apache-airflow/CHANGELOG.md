@@ -1,5 +1,14 @@
 # @backstage/plugin-apache-airflow
 
+## 0.2.19
+
+### Patch Changes
+
+- 4016f21: Remove some unused dependencies
+- Updated dependencies
+  - @backstage/core-components@0.13.10
+  - @backstage/core-plugin-api@1.8.1
+
 ## 0.2.18
 
 ### Patch Changes

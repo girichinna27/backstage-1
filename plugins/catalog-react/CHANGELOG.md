@@ -1,5 +1,24 @@
 # @backstage/plugin-catalog-react
 
+## 1.9.3
+
+### Patch Changes
+
+- 4016f21: Remove some unused dependencies
+- Updated dependencies
+  - @backstage/core-components@0.13.10
+  - @backstage/catalog-client@1.5.2
+  - @backstage/frontend-plugin-api@0.4.1
+  - @backstage/plugin-permission-react@0.4.19
+  - @backstage/integration-react@1.1.22
+  - @backstage/catalog-model@1.4.3
+  - @backstage/core-plugin-api@1.8.1
+  - @backstage/errors@1.2.3
+  - @backstage/types@1.1.1
+  - @backstage/version-bridge@1.0.7
+  - @backstage/plugin-catalog-common@1.0.19
+  - @backstage/plugin-permission-common@0.7.11
+
 ## 1.9.2
 
 ### Patch Changes

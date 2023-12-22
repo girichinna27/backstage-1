@@ -1,5 +1,17 @@
 # @backstage/plugin-azure-sites
 
+## 0.1.18
+
+### Patch Changes
+
+- 4016f21: Remove some unused dependencies
+- Updated dependencies
+  - @backstage/core-components@0.13.10
+  - @backstage/plugin-catalog-react@1.9.3
+  - @backstage/catalog-model@1.4.3
+  - @backstage/core-plugin-api@1.8.1
+  - @backstage/plugin-azure-sites-common@0.1.1
+
 ## 0.1.17
 
 ### Patch Changes
