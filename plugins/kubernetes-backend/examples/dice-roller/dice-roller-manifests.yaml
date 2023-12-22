@@ -4,6 +4,7 @@ metadata:
   name: dice-roller
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -14,6 +15,7 @@ spec:
       labels:
         app: dice-roller
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -39,6 +41,7 @@ metadata:
   name: dice-roller-incorrect-probe
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -49,6 +52,7 @@ spec:
       labels:
         app: dice-roller-incorrect-probe
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -75,6 +79,7 @@ metadata:
   name: dice-roller-canary
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -85,6 +90,7 @@ spec:
       labels:
         app: dice-roller-canary
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -128,6 +134,7 @@ metadata:
   name: dice-roller-bad-config
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -138,6 +145,7 @@ spec:
       labels:
         app: dice-roller-bad-config
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -159,6 +167,7 @@ metadata:
   name: dice-roller-big
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -169,6 +178,7 @@ spec:
       labels:
         app: dice-roller-big
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -190,6 +200,7 @@ metadata:
   name: dice-roller-bad-cm
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     matchLabels:
@@ -200,6 +211,7 @@ spec:
       labels:
         app: dice-roller-bad-cm
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       containers:
         - name: nginx
@@ -227,6 +239,7 @@ metadata:
   name: dice-roller
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
@@ -243,17 +256,20 @@ metadata:
   name: dice-roller-cronjob
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   schedule: '*/1 * * * *'
   jobTemplate:
     metadata:
       labels:
         'backstage.io/kubernetes-id': dice-roller
+        'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
     spec:
       template:
         metadata:
           labels:
             'backstage.io/kubernetes-id': dice-roller
+            'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
         spec:
           containers:
             - name: busybox
@@ -274,6 +290,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$1
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   rules:
     - host: nginx
@@ -292,6 +309,7 @@ metadata:
   namespace: default
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 data:
   foo: bar
 
@@ -302,6 +320,7 @@ metadata:
   name: dice-roller
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 type: Opaque
 data:
   username: YWRtaW4=
@@ -312,6 +331,7 @@ metadata:
   name: dice-roller
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     app: dice-roller
@@ -332,6 +352,7 @@ metadata:
   name: dice-roller-lb
   labels:
     'backstage.io/kubernetes-id': dice-roller
+    'backstage.io/kubernetes-cluster': gke_sandbox-spin_us-central1-c_arog-rollout-cluster
 spec:
   selector:
     app: dice-roller
