@@ -51,7 +51,7 @@
     "@backstage/catalog-model": "workspace:^",
     "@backstage/config": "workspace:^",
     "@backstage/plugin-catalog-node": "workspace:^",
-    "@backstage/plugin-kubernetes-common": "workspace:^",
+    "@backstage/plugin-kubernetes-common": "0.1.0",
     "@google-cloud/container": "^5.0.0",
     "winston": "^3.2.1"
   },
