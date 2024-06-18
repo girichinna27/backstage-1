@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@backstage/backend-common": "workspace:^",
-    "@backstage/backend-plugin-api": "workspace:^",
+    "@backstage/backend-plugin-api": "0.6.19",
     "@backstage/catalog-model": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
