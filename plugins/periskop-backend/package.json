@@ -45,7 +45,7 @@
     "@backstage/backend-plugin-api": "workspace:^",
     "@backstage/config": "workspace:^",
     "@types/express": "*",
-    "express": "^4.17.1",
+    "express": "^4.21.0",
     "express-promise-router": "^4.1.0",
     "node-fetch": "^2.6.7",
     "winston": "^3.2.1",
