@@ -51,7 +51,7 @@
     "@backstage/plugin-permission-node": "workspace:^",
     "@backstage/plugin-playlist-backend": "workspace:^",
     "@backstage/plugin-proxy-backend": "workspace:^",
-    "@backstage/plugin-scaffolder-backend": "workspace:^",
+    "@backstage/plugin-scaffolder-backend": "0.1.1",
     "@backstage/plugin-search-backend": "workspace:^",
     "@backstage/plugin-search-backend-module-catalog": "workspace:^",
     "@backstage/plugin-search-backend-module-explore": "workspace:^",
