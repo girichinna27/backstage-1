@@ -28,7 +28,7 @@
     "clean": "backstage-cli package clean"
   },
   "dependencies": {
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@backstage/plugin-scaffolder-node": "0.4.12",
     "@backstage/types": "workspace:^",
     "winston": "^3.2.1",
     "yeoman-environment": "^3.9.1"
