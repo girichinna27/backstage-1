@@ -33,7 +33,7 @@
     "@backstage/backend-common": "workspace:^",
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
-    "@backstage/integration": "workspace:^",
+    "@backstage/integration": "0.1.0",
     "@backstage/plugin-scaffolder-node": "workspace:^",
     "fs-extra": "10.1.0",
     "git-url-parse": "^13.1.0",
